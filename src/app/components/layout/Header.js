@@ -3,10 +3,10 @@ import Link from 'next/link'
 export default function Header() {
     return (
         <header className='flex items-center justify-between'>
-            <Link className="text-primary font-sembold text-2xl" href="">
-                ST PIZZA
+            <Link className="text-title font-semibold text-3xl" href="">
+                Cat Cafe
             </Link>
-            <nav className='flex items-center gap-8 text-gray-400 semibold'>
+            <nav className='flex items-center gap-8 text-gray-600 semibold'>
             <Link href={''}>Home</Link>
             <Link href={''}>Menu</Link>
             <Link href={''}>About</Link>

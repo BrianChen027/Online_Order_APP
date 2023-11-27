@@ -3,12 +3,21 @@ import Right from "../icons/Right"
 
 export default function Hero() {
     return (
-        <section className="grid grid-cols-2">
-            <div>
-                <h1 className="text-4xl font-semibold">Nothing is better than having a cup of coffee</h1>
+        <section className="hero">
+            <div className="py-12">
+                {/* <h1 className="text-4xl font-semibold">Nothing is better than having a cup of&nbsp;
+                    <span className="text-primary">coffee</span>
+                </h1> */}
+                <h1 className="text-4xl font-semibold">
+                    From bean to cup, <br/>
+                    for that moment of <br/>
+                    <span className="text-coffee">
+                        Perfection
+                    </span>
+                </h1>
                 <p className="mt-4 text-gray-500">Without coffee, life just like missing a piece</p>
-                <div className="flex gap-4">
-                    <button className="bg-primary flex gap-2 text-white px-4 py-2 rounded-full">
+                <div className="flex gap-4 text-sm">
+                    <button className="bg-primary uppercase flex items-center gap-2 text-white px-4 py-2 rounded-full">
                         Order Now
                         <Right />
                     </button>
