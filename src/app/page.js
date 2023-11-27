@@ -39,8 +39,15 @@ export default function Home() {
         <SectionHeaders 
           subHeader={'Don\'t hesitate'}
           mainHeader={'Contact us'} />
-        <a className="text-4xl" herf=""></a>
+          <div className='mt-8'>
+            <a className="text-4xl" herf="tel:+1-400-000-0000">+1-400-000-0000</a>
+          </div>
+        
       </section>
+
+      <footer className='border-t p-8 text-center text-gray-500 mt-16'>
+        &copy; 2023 Brian rights reserved
+      </footer>
     </>
   )
 }
