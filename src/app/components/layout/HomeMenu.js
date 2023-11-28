@@ -1,5 +1,7 @@
 import Image from "next/image";
+import MenuAmericano from "../menu/MenuAmericano";
 import MenuItem from "../menu/MenuItem";
+import MenuLatte from "../menu/MenuLatte";
 import SectionHeaders from "./SectionHeaders";
 
 export default function HomeMenu() {
@@ -21,12 +23,10 @@ export default function HomeMenu() {
                 mainHeader={'Menu'} />
             </div>
             <div className="grid grid-cols-3 gap-4">
+                <MenuAmericano />
+                <MenuLatte />
                 <MenuItem />
-                <MenuItem />
-                <MenuItem />
-                <MenuItem />
-                <MenuItem />
-                <MenuItem />
+
             </div>
         </section>
         
